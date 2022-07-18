@@ -1,0 +1,28 @@
+{
+  "name": "react-koa-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "clear & concurrently 'vite' 'nodemon server.js'",
+    "client": "vite",
+    "serve": "clear & nodemon server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@koa/router": "^11.0.1",
+    "koa": "^2.13.4",
+    "koa-sendfile": "^3.0.0",
+    "koa-static": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.19",
+    "vite": "^3.0.0"
+  }
+}
